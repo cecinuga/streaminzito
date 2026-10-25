@@ -9,8 +9,8 @@ It receive video streaming, transform the source executing a certain module (plu
 - Send channel
 
 ## Key Architectural Choice
-- Comunication is asynchronous, 1:N = streaminzito:client.
-- 
+- comunication is asynchronous, 1:N = streaminzito:client.
+- no inbound queue
 
 ## Technology Stack
 - Async Runtime: [tokio](https://github.com/tokio-rs/tokio) 
