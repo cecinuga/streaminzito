@@ -8,4 +8,10 @@ It receive video streaming, transform the source executing a certain module (plu
 - Receive channel
 - Send channel
 
-The comunication is asynchronous.
+## Key Architectural Choice
+- Comunication is asynchronous, 1:N = streaminzito:client.
+- 
+
+## Technology Stack
+- Async Runtime: [tokio](https://github.com/tokio-rs/tokio) 
+- RTC: [st0rm](https://github.com/algesten/str0m)
